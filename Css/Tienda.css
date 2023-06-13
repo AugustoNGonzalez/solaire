@@ -1,0 +1,58 @@
+
+.Seccion-Tienda {
+    background-color: rgb(223, 197, 175);
+    margin: 20px;
+    border: 2px solid rgb(192, 170, 150);
+    display: inline-block;
+
+}
+
+.Linea {
+    justify-content: center;
+    display: flex;
+}
+
+.Tienda-Imagen {
+    height: 300px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+
+}
+
+.Item {
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+
+.Nombre {
+    margin: 5px;
+
+}
+
+.Precio {
+    color: rgb(117, 117, 117);
+    font-size: large;
+    margin: 5px;
+}
+
+.Colores {
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.Colores:hover {
+    border-color: rgb(198, 201, 154);
+}
+  
+#Video {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.1s;
+  }

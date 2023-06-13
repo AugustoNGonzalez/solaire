@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 244, 231);
+}
+
+.Logo-Titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 207, 146);
+}
+
+.logo {
+    width: 100px;
+}
+
+.titulo {
+    color: white;
+}
+
+.item-link {
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    transition: .3s ;
+}
+
+.item-link:hover{
+    background-color: rgb(143, 143, 100);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(207, 207, 146);
+    margin-top: 50px;
+}
+
+.Bienvenida { 
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Bienvenida-Img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Texto {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.Caballero {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.Contacto {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 200px;
+    height: 30px;
+}
+
+.btn-primary {
+    color: white; 
+    background-color: black;
+    border: 1px black;
+}
+
+.div-redes{
+    margin-left: 400px;
+}
+
+.Noticia {
+    display: block;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.personal {
+    display: flex;
+    justify-content: center;
+}
+
+.solaire {
+    height: 300px;
+    margin: auto;
+    display: block;
+}
